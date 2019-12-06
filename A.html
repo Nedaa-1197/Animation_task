@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="A.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="ui/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="ui/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript">
+  $("document").ready(function(){
+    $(".new").click(function(){
+      $(this).find(".small").css("transform","rotateY(180deg)");
+    });
+    $(".new1").click(function(){
+      $(this).find(".small").css("transform","rotateY(180deg)");
+    });
+    $(".new2").click(function(){
+      $(this).find(".small").css("transform","rotateY(180deg)");
+    });
+    $(".new3").click(function(){
+      $(this).find(".small").css("transform","rotateY(180deg)");
+    });
+    $(".new4").click(function(){
+      $(this).find(".small").css("transform","rotateY(180deg)");
+    });
+    $(".new5").click(function(){
+      $(this).find(".small").css("transform","rotateY(180deg)");
+    });
+    $(".new6").click(function(){
+      $(this).find(".small").css("transform","rotateY(180deg)");
+    });
+    $(".new7").click(function(){
+      $(this).find(".small").css("transform","rotateY(180deg)");
+    });
+    
+    });
+
+</script>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<h1>Card Flip with Text</h1>
+<h3>Hover over the image below:</h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="big">
+  <div class="med">
+    <div class="new">
+    <div class="small"></div>
+    <div class="back"><img src="new.png"></div>
+  </div>
+    <div class="new1">
+    <div class="small"></div>
+    <div class="back"><img src="new1.png"></div>
+  </div>
+    <div  class="new2">
+    <div class="small"></div>
+    <div class="back"><img src="new2.png"></div>
+  </div>
+    <div  class="new2">
+    <div class="small"></div>
+    <div class="back"><img src="new2.png"></div>
+  </div>
+  </div>
+  <div class="med">
+    <div class="new1">
+    <div class="small"></div>
+    <div class="back"><img src="new1.png"></div>
+  </div>
+    <div  class="new">
+    <div class="small"></div>
+    <div class="back"><img src="new.png"></div>
+  </div>
+    <div class="new3">
+    <div class="small"></div>
+    <div class="back"><img src="new3.png"></div>
+  </div>
+    <div class="new4">
+    <div class="small"></div>
+    <div class="back"><img src="new4.png"></div>
+  </div>
+    
+  </div>
+  <div class="med">
+    <div class="new5">
+    <div class="small"></div>
+    <div class="back"><img src="new5.png"></div>
+  </div>
+   <div class="new3">
+    <div class="small"></div>
+    <div class="back"><img src="new3.png"></div>
+  </div>
+    <div class="new5">
+    <div class="small"></div>
+    <div class="back"><img src="new5.png"></div>
+  </div>
+    <div class="new4">
+    <div class="small"></div>
+    <div class="back"><img src="new4.png"></div>
+  </div>
+    
+  </div>
+  <div class="med">
+    <div class="new6">
+    <div class="small"></div>
+    <div class="back"><img src="new6.png"></div>
+  </div>
+    <div class="new6">
+    <div class="small"></div>
+    <div class="back"><img src="new6.png"></div>
+  </div>
+    <div class="new7">
+    <div class="small"></div>
+    <div class="back"><img src="new7.png"></div>
+  </div>
+    <div class="new7">
+    <div class="small"></div>
+    <div class="back"><img src="new7.png"></div>
+  </div>
+  
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

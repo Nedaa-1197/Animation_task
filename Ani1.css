@@ -1,0 +1,169 @@
+@keyframes Ani1{
+	from{
+		background-color: red;
+	}
+	to{
+		background-color: yellow;
+	}
+	to{
+		transform: rotate(60deg);
+	}
+}
+@keyframes Ani2{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+	
+}
+@keyframes Ani3{
+	from{
+		background-color: gray;
+	}
+	to{
+		background-color: red;
+	}
+}@keyframes Ani4{
+	from{
+		background-color: gray;
+	}
+	to{
+		background-color: orange;
+	}
+}@keyframes Ani5{
+	from{
+		background-color: gray;
+	}
+	to{
+		background-color: green;
+	}
+}
+@keyframes Ani6{
+	from{
+
+	}
+	to{
+
+	}
+}
+#div1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation: Ani1 2s infinite;
+}
+
+#div2{
+	width: 200px;
+	height: 200px;
+	border:10px solid #9394e6;
+	border-radius: 50%;
+	margin-left: 400px;
+}
+#div3{
+	width: 50px;
+	height: 5px;
+	background-color: #9394e6;
+	margin-left: 10px;
+
+
+}
+#cir{
+	width: 15px;
+	height: 15px;
+	margin-top: 90px;
+	margin-left:90px;
+	background-color:#9394e6;
+	border-radius: 50%; 
+	animation: Ani2 3s infinite;
+}
+#cir:hover{
+	animation-play-state: paused;
+}
+
+#A{
+	width: 40px;
+	height: 110px;
+	margin-left:400px;
+	position: relative;
+	padding: 3px;
+	background-color: black;
+}
+#B{
+	width: 6px;
+	height: 200px;
+	background-color: black;
+	margin-left: 420px;
+}
+.A{
+	border-radius: 50%;
+	position: relative;
+	width: 30px;
+	height: 30px;
+
+	margin:4px;
+}
+#red{
+	background-color: gray;
+	animation: Ani3 1s infinite;
+
+}
+#orange{
+	background-color: gray;
+	animation: Ani4 1s infinite;
+	animation-delay: 1s;
+
+}
+#green{
+	background-color: gray;
+	animation: Ani5 1s infinite;
+	animation-delay: 2s;
+
+}
+#rot1{
+	width: 100%;
+	display: inline-block;
+}
+.rot{
+	width: 100%;
+	display: inline-block;
+}
+#r1{
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	
+
+}
+#r2{
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	
+}
+#r3{
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	
+}
+#r4{
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	
+}
+#r5{
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	
+}
+#r6{
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+
+}
